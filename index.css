@@ -1,3 +1,18 @@
+
+
+:root{
+	--negro: #000;
+	--grafito: #222;
+	--rojo: #B81515;
+	--blanco: #fff;
+	--gris-claro: #F5F5F5;
+	--gris-oscuro: #8C8C8C;
+	--neutral-c: #F5F5F5;
+	--fonts-primary: fonts-style, normal; 
+}
+
+
+
 .encabezado__container {
 	background: var(--negro);
 	width: 100%;
@@ -23,7 +38,7 @@
 
 .encabezado__navegacion--elemento {
 	font-size: 24px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 500;
 	line-height: normal;
 }
@@ -34,10 +49,10 @@
 
 .banner__descripcion {
 	max-width: 1200px;
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	text-align: center;
 	font-size: 32px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 150%;
 	margin: 110px auto;
@@ -59,7 +74,7 @@
 .ofertas__titulo {
 	color: var(--grafito);
 	font-size: 32px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	text-align: center;
@@ -119,7 +134,7 @@ img {
 	color: var(--blanco);
 	text-align: center;
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
 	margin-bottom: 8px;
@@ -127,14 +142,14 @@ img {
 
 .ofertas__card--destino-nombre {
 	font-size: 48px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 }
 
 .ofertas__card--precio {
 	font-size: 40px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	margin-bottom: 24px;
@@ -143,7 +158,7 @@ img {
 .destinos__elemento--boton,
 .ofertas__card--boton {
 	border-radius: 8px;
-	background: var(--rojo, #B81515);
+	background: var(--rojo);
 	padding: 16px 48px;
 	box-sizing: border-box;
 	display: inline-block;
@@ -152,10 +167,10 @@ img {
 .destinos__elemento--boton-texto,
 .ofertas__card--boton-texto {
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: 32px;
-	color: var(--blanco, #FFF);
+	color: var(--blanco);
 }
 
 .busca__categorias {
@@ -166,14 +181,14 @@ img {
 }
 
 .busca__categoria {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	text-align: center;
 	font-size: 28px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	border-radius: 8px;
-	background: var(--gris-claro, #F5F5F5);
+	background: var(--gris-claro);
 	padding: 24px 16px;
 	flex: 1;
 	display: flex;
@@ -182,9 +197,9 @@ img {
 }
 
 span.material-symbols-outlined {
-	color: var(--gris-oscuro, #8C8C8C);
+	color: var(--gris-oscuro);
 	font-size: 80px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: normal;
 }
@@ -208,18 +223,18 @@ span.material-symbols-outlined {
 }
 
 .destinos__elemento--nombre {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 28px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	margin: 24px 0;
 }
 
 .destinos__elemento--descripcion {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
 	margin-bottom: 24px;
@@ -236,18 +251,18 @@ span.material-symbols-outlined {
 }
 
 .pago__condiciones--destaque {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 28px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	margin-bottom: 24px;
 }
 
 .pago__condiciones--detalles {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
 	width: 384px;
@@ -284,9 +299,9 @@ span.material-symbols-outlined {
 }
 
 .testimonios__texto {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 16px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 28px;
 }
@@ -302,10 +317,10 @@ span.material-symbols-outlined {
 }
 
 .testimonios__autor--nombre {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	text-align: center;
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: 32px;
 	margin-bottom: 8px;
@@ -324,7 +339,7 @@ span.material-symbols-outlined {
 	align-items: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	color: var(--blanco, #FFF);
+	color: var(--blanco);
 }
 
 .footer__logo-icon {
@@ -339,9 +354,9 @@ span.material-symbols-outlined {
 }
 
 .footer__text-info {
-	color: var(--neutral-c, #F5F5F5);
+	color: var(--neutral-c);
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
 	/* 160% */
@@ -352,9 +367,9 @@ span.material-symbols-outlined {
 }
 
 .footer__social-media-text {
-	color: var(--neutral-c, #F5F5F5);
+	color: var(--neutral-c);
 	font-size: 16px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 28px;
 	margin-bottom: 16px;
@@ -385,7 +400,7 @@ span.material-symbols-outlined {
 
 .encabezado__navegacion--elemento {
 	font-size: 24px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 500;
 	line-height: normal;
 }
@@ -396,10 +411,10 @@ span.material-symbols-outlined {
 
 .banner__descripcion {
 	max-width: 1200px;
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	text-align: center;
 	font-size: 32px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 150%;
 	margin: 110px auto;
@@ -421,7 +436,7 @@ span.material-symbols-outlined {
 .ofertas__titulo {
 	color: var(--grafito);
 	font-size: 32px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	text-align: center;
@@ -481,7 +496,7 @@ img {
 	color: var(--blanco);
 	text-align: center;
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
 	margin-bottom: 8px;
@@ -489,14 +504,14 @@ img {
 
 .ofertas__card--destino-nombre {
 	font-size: 48px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 }
 
 .ofertas__card--precio {
 	font-size: 40px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	margin-bottom: 24px;
@@ -505,7 +520,7 @@ img {
 .destinos__elemento--boton,
 .ofertas__card--boton {
 	border-radius: 8px;
-	background: var(--rojo, #B81515);
+	background: var(--rojo);
 	padding: 16px 48px;
 	box-sizing: border-box;
 	display: inline-block;
@@ -514,10 +529,10 @@ img {
 .destinos__elemento--boton-texto,
 .ofertas__card--boton-texto {
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: 32px;
-	color: var(--blanco, #FFF);
+	color: var(--blanco);
 }
 
 .busca__categorias {
@@ -528,14 +543,14 @@ img {
 }
 
 .busca__categoria {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	text-align: center;
 	font-size: 28px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	border-radius: 8px;
-	background: var(--gris-claro, #F5F5F5);
+	background: var(--gris-claro);
 	padding: 24px 16px;
 	flex: 1;
 	display: flex;
@@ -544,9 +559,9 @@ img {
 }
 
 span.material-symbols-outlined {
-	color: var(--gris-oscuro, #8C8C8C);
+	color: var(--gris-oscuro);
 	font-size: 80px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: normal;
 }
@@ -570,18 +585,18 @@ span.material-symbols-outlined {
 }
 
 .destinos__elemento--nombre {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 28px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	margin: 24px 0;
 }
 
 .destinos__elemento--descripcion {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
 	margin-bottom: 24px;
@@ -598,18 +613,18 @@ span.material-symbols-outlined {
 }
 
 .pago__condiciones--destaque {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 28px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	margin-bottom: 24px;
 }
 
 .pago__condiciones--detalles {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
 	width: 384px;
@@ -646,9 +661,9 @@ span.material-symbols-outlined {
 }
 
 .testimonios__texto {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	font-size: 16px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 28px;
 }
@@ -664,10 +679,10 @@ span.material-symbols-outlined {
 }
 
 .testimonios__autor--nombre {
-	color: var(--grafito, #222);
+	color: var(--grafito);
 	text-align: center;
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: 32px;
 	margin-bottom: 8px;
@@ -686,7 +701,7 @@ span.material-symbols-outlined {
 	align-items: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	color: var(--blanco, #FFF);
+	color: var(--blanco);
 }
 
 .footer__logo-icon {
@@ -701,9 +716,9 @@ span.material-symbols-outlined {
 }
 
 .footer__text-info {
-	color: var(--neutral-c, #F5F5F5);
+	color: var(--neutral-c);
 	font-size: 20px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
 	/* 160% */
@@ -714,10 +729,60 @@ span.material-symbols-outlined {
 }
 
 .footer__social-media-text {
-	color: var(--neutral-c, #F5F5F5);
+	color: var(--neutral-c);
 	font-size: 16px;
-	font-style: normal;
+	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 28px;
 	margin-bottom: 16px;
+}
+
+@media (max-width: 950px){
+	.encabezado{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.ofertas__cards--grupo{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.encabezado__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.busca__categorias{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+	.destinos__lista{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.pago__condiciones{
+		display: flex;
+		flex-direction: column;
+	}
+	.footer__container {
+		display: flex;
+		flex-direction: column;
+	}
+	.testimonios__wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+	}
 }
