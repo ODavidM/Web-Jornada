@@ -11,7 +11,7 @@
 	--fonts-primary: fonts-style, normal; 
 }
 
-
+	
 
 .encabezado__container {
 	background: var(--negro);
@@ -43,8 +43,16 @@
 	line-height: normal;
 }
 
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .banner__img {
-	max-width: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 .banner__descripcion {
@@ -95,6 +103,7 @@
 
 img {
 	max-width: 100%;
+
 }
 
 .ofertas__cards--grupo {
@@ -242,6 +251,8 @@ span.material-symbols-outlined {
 
 .pago {
 	margin-bottom: 112px;
+	display: flex;
+	flex-direction: column;
 }
 
 .pago__imagenes--grupo,
@@ -687,6 +698,7 @@ span.material-symbols-outlined {
 	line-height: 32px;
 	margin-bottom: 8px;
 }
+
 
 .footer__container {
 	background: var(--negro);
@@ -738,6 +750,14 @@ span.material-symbols-outlined {
 }
 
 @media (max-width: 950px){
+	.container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		text-align: center;
+	}
+	
 	.encabezado{
 		display: flex;
 		flex-direction: column;
@@ -752,6 +772,14 @@ span.material-symbols-outlined {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+	}
+	
+	.destinos__lista{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		text-align: center;
 	}
 	
 	.busca__categorias{
@@ -769,13 +797,29 @@ span.material-symbols-outlined {
 		flex-direction: column;
 	}
 
-	.pago__condiciones{
+	.pago,
+	.pago__condiciones,
+	.pago__condiciones--descripcion{
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		text-align: center;
+	}
+	.testimonios,
+	.testimonios__autor{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		text-align: center;
 	}
 	.footer__container {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		text-align: center;
 	}
 	.testimonios__wrapper{
 		display: flex;
