@@ -11,13 +11,11 @@
 	--fonts-primary: fonts-style, normal; 
 }
 
-	
-
-.encabezado__container {
-	background: var(--negro);
-	width: 100%;
-	padding: 40px 0;
+* {
+	padding: 0%;
+	margin:0%;
 }
+
 
 .encabezado {
 	justify-content: space-between;
@@ -750,6 +748,13 @@ span.material-symbols-outlined {
 }
 
 @media (max-width: 950px){
+
+	.encabezado__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
 	.container{
 		display: flex;
 		flex-direction: column;
@@ -761,6 +766,7 @@ span.material-symbols-outlined {
 	.encabezado{
 		display: flex;
 		flex-direction: column;
+		
 	}
 
 	.ofertas__cards--grupo{
@@ -768,12 +774,6 @@ span.material-symbols-outlined {
 		flex-direction: column;
 	}
 
-	.encabezado__container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-	
 	.destinos__lista{
 		display: flex;
 		flex-direction: column;
