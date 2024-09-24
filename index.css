@@ -16,6 +16,7 @@
 	font-size: 24px;
 	font-style: var(--fonts-primary);
 	font-weight: 500;
+	color: var(--blanco);
 
 }
 
@@ -31,7 +32,7 @@
 .encabezado__navegacion ul{
 	display: flex;
 	padding: 0;
-	margin: 0;
+	margin: 5%;
   gap: 40px;
 
 }
@@ -60,13 +61,11 @@
 }
 
 .banner__img {
+	justify-content: center;
 	height: auto;
   width: auto;
-  max-width: 1200px;
 	margin: 0;
-	
-
-}
+	}
 
 .banner__descripcion {
 	max-width: 1200px;
@@ -76,7 +75,7 @@
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 150%;
-	margin: 110px auto;
+	margin: 5% auto;
 }
 
 .container {
@@ -757,6 +756,9 @@ span.material-symbols-outlined {
 }
 
 @media (max-width: 950px){
+.banner__descripcion{
+	margin: 5% auto;
+}
 
 	.encabezado__container {
 		display: flex;
@@ -822,6 +824,10 @@ span.material-symbols-outlined {
 		align-items: center;
 		justify-content: flex-start;
 		text-align: center;
+	}
+	.pre-footer__image{
+		max-width: 100%;
+		height: auto;
 	}
 	.footer__container {
 		display: flex;
