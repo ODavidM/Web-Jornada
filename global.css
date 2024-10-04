@@ -8,6 +8,9 @@
 	--gris-oscuro: #8C8C8C;
 	--neutral-c: #F5F5F5;
 	--fonts-primary: fonts-style, normal; 
+	--dimension-texto: 0.7rem;
+	--dimension-titulo: 1.5rem;
+
 }
 
 * {
