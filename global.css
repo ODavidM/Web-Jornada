@@ -10,6 +10,7 @@
 	--fonts-primary: fonts-style, normal; 
 	--dimension-texto: 0.7rem;
 	--dimension-titulo: 1.5rem;
+	--dimension-texto-m: 1rem;
 
 }
 
@@ -21,9 +22,10 @@
 
 body {
     margin: 0;
+		padding: 0;
 }
 
 a {
     text-decoration: none;
-}
+}	
 

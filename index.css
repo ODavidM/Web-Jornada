@@ -13,7 +13,7 @@
 
 .encabezado__navegacion--elemento {
 	text-decoration: none;
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 500;
 	color: var(--blanco);
@@ -54,8 +54,16 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 0 10% 0 10%;
+}
 
-	
+.banner {
+  max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: auto;
 }
 
 .banner__img {
@@ -92,26 +100,38 @@
 
 
 .banner__descripcion {
-
-	width: 450px;
-	color: var(--gris-claro);
+	width: auto;
+	color: var(--grafito);
 	text-align: left;
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
-	line-height: 150%;
-	margin: 0 0 0 120px;
+	line-height: 100%;
+	margin: 0 auto 8% ;
 }
+
+.banner__descripcion--index {
+	width: auto;
+	color: var(--grafito);
+	text-align: center;
+	font-size: var(--dimension-titulo);
+	font-style: var(--fonts-primary);
+	font-weight: 400;
+	line-height: 100%;
+	margin: 0 auto 0.5% ;
+}
+
+
 
 .banner__descripcion--title {
 	width: 450px;
 	color: var(--gris-claro);
 	text-align: left;
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 150%;
-	margin: 0 0 0 120px;
+	margin: 0 10%;
 	font-weight: bold;
 }
 
@@ -195,7 +215,7 @@ img {
 .ofertas__card--destino-tipo {
 	color: var(--blanco);
 	text-align: center;
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
@@ -203,14 +223,14 @@ img {
 }
 
 .ofertas__card--destino-nombre {
-	font-size: var(--dimension-titulo:)
+	font-size: var(--dimension-texto);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 }
 
 .ofertas__card--precio {
-	font-size: var(--dimension-titulo:)
+	font-size: var(--dimension-texto);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
@@ -224,11 +244,12 @@ img {
 	padding: 16px 48px;
 	box-sizing: border-box;
 	display: inline-block;
+	justify-content: center;
 }
 
 .destinos__elemento--boton-texto,
 .ofertas__card--boton-texto {
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: 32px;
@@ -245,7 +266,7 @@ img {
 .busca__categoria {
 	color: var(--grafito);
 	text-align: center;
-	font-size: var(--dimension-titulo:)
+	font-size: var(--dimension-texto);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
@@ -286,20 +307,22 @@ span.material-symbols-outlined {
 
 .destinos__elemento--nombre {
 	color: var(--grafito);
-	font-size: var(--dimension-titulo:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	margin: 24px 0;
+	text-align: left;
 }
 
 .destinos__elemento--descripcion {
 	color: var(--grafito);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto-m);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
 	margin-bottom: 24px;
+	text-align: left;
 }
 
 .pago {
@@ -314,9 +337,11 @@ span.material-symbols-outlined {
 	gap: 24px;
 }
 
+
+
 .pago__condiciones--destaque {
 	color: var(--grafito);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
@@ -325,7 +350,7 @@ span.material-symbols-outlined {
 
 .pago__condiciones--detalles {
 	color: var(--grafito);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
@@ -364,7 +389,7 @@ span.material-symbols-outlined {
 
 .testimonios__texto {
 	color: var(--grafito);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 28px;
@@ -383,7 +408,7 @@ span.material-symbols-outlined {
 .testimonios__autor--nombre {
 	color: var(--grafito);
 	text-align: center;
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: 32px;
@@ -426,7 +451,7 @@ span.material-symbols-outlined {
 
 .footer__text-info {
 	color: var(--neutral-c);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto-m);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
@@ -439,7 +464,7 @@ span.material-symbols-outlined {
 
 .footer__social-media-text {
 	color: var(--neutral-c);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto-m);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 28px;
@@ -455,8 +480,8 @@ span.material-symbols-outlined {
 	justify-content: space-between;
 	display: flex;
 	align-items: center;
-	max-width: 1200px;
-	margin: 0 auto;
+	max-width: auto;
+	margin: 0 10%;
 }
 
 .encabezado__logo--icono {
@@ -469,7 +494,7 @@ span.material-symbols-outlined {
 
 
 .container {
-	max-width: 1200px;
+	max-width: auto;
 	margin: 0 auto;
 }
 
@@ -507,7 +532,7 @@ span.material-symbols-outlined {
 	width: 150px;
 	height: 3px;
 	background: var(--rojo);
-	margin: 0 120px;
+	margin: 0 10%;
 }
 
 
@@ -551,7 +576,7 @@ img {
 .ofertas__card--destino-tipo {
 	color: var(--blanco);
 	text-align: center;
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
@@ -559,18 +584,25 @@ img {
 }
 
 .ofertas__card--destino-nombre {
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto-m);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 }
 
 .ofertas__card--precio {
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto-m);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
 	margin-bottom: 24px;
+}
+
+
+.destinos__elemento--boton-container{
+	display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .destinos__elemento--boton,
@@ -584,7 +616,7 @@ img {
 
 .destinos__elemento--boton-texto,
 .ofertas__card--boton-texto {
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto-m);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: 32px;
@@ -601,7 +633,7 @@ img {
 .busca__categoria {
 	color: var(--grafito);
 	text-align: center;
-	font-size: var(--dimension-titulo:)
+	font-size: var(--dimension-texto-m);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
@@ -642,20 +674,13 @@ span.material-symbols-outlined {
 
 .destinos__elemento--nombre {
 	color: var(--grafito);
-	font-size: var(--dimension-titulo:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	line-height: normal;
 	margin: 24px 0;
 }
 
-.destinos__elemento--descripcion {
-	color: var(--grafito);
-	font-size: var(--dimension-texto:)
-	font-style: var(--fonts-primary);
-	font-weight: 400;
-	line-height: 32px;
-	margin-bottom: 24px;
-}
+
 
 .pago {
 	margin-bottom: 112px;
@@ -664,12 +689,12 @@ span.material-symbols-outlined {
 .pago__imagenes--grupo,
 .pago__condiciones {
 	display: flex;
-	gap: 24px;
+	gap: 14px;
 }
 
 .pago__condiciones--destaque {
 	color: var(--grafito);
-	font-size: var(--dimension-titulo:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: normal;
@@ -678,7 +703,7 @@ span.material-symbols-outlined {
 
 .pago__condiciones--detalles {
 	color: var(--grafito);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
@@ -702,10 +727,12 @@ span.material-symbols-outlined {
 	margin-bottom: 112px;
 }
 
-.testimonios__wrapper {
+.testimonios__wrapper{
 	display: flex;
+	flex-direction: row;
 	gap: 24px;
 	align-items: stretch;
+	margin-bottom: 7%;
 }
 
 .testimonios__elemento {
@@ -717,7 +744,7 @@ span.material-symbols-outlined {
 
 .testimonios__texto {
 	color: var(--grafito);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto-m);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 28px;
@@ -736,7 +763,7 @@ span.material-symbols-outlined {
 .testimonios__autor--nombre {
 	color: var(--grafito);
 	text-align: center;
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-texto);
 	font-style: var(--fonts-primary);
 	font-weight: 700;
 	line-height: 32px;
@@ -773,7 +800,7 @@ span.material-symbols-outlined {
 
 .footer__text-info {
 	color: var(--neutral-c);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 32px;
@@ -786,17 +813,15 @@ span.material-symbols-outlined {
 
 .footer__social-media-text {
 	color: var(--neutral-c);
-	font-size: var(--dimension-texto:)
+	font-size: var(--dimension-titulo);
 	font-style: var(--fonts-primary);
 	font-weight: 400;
 	line-height: 28px;
 	margin-bottom: 16px;
 }
 
-@media (max-width: 950px){
-.banner__descripcion{
-	margin: 5% auto;
-}
+@media (max-width: 450px){
+
 
 	.encabezado__container {
 		display: flex;
@@ -847,14 +872,19 @@ span.material-symbols-outlined {
 	}
 
 	.pago,
-	.pago__condiciones,
-	.pago__condiciones--descripcion{
+	.pago__condiciones{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: flex-start;
 		text-align: center;
 	}
+
+	.pago__condiciones--descripcion{
+		display: flex;
+		flex-direction: row;
+	}
+
 	.testimonios,
 	.testimonios__autor{
 		display: flex;
